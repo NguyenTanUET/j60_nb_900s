@@ -21,7 +21,7 @@ ENV PYTHONUNBUFFERED=1
 # Tạo một tập hợp lệnh shell, chạy tuần tự 4 script, ghi log ra stdout
 CMD [ "bash", "-lc", "\
      echo '>>> Container started, running RCPSP batch...'; \
-     python rcpsp_j160_no_bound_only_time_per_instance.py; \
+     python rcpsp_j60_no_bound_only_time_per_instance.py; \
      echo '>>> rcpsp_j60_no_bound_only_time_per_instance.py'; \
      echo '>>> All scripts done, exiting.' \
 " ]
